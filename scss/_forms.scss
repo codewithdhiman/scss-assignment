@@ -1,0 +1,38 @@
+.form {
+	&-element {
+		display: flex;
+		margin: $form-elem-spacing 0;
+
+		label {
+			display: flex;
+			flex: 1;
+			flex-direction: column;
+			color: $secondary-color;
+			text-indent: $form-icon-spacing;
+		}
+
+		input {
+			height: $input-height;
+			flex: 1;
+		}
+
+		&-icon {
+			margin-right: 10px;
+			width: $input-height;
+		}
+
+		&-inner {
+			display: flex;
+			flex-direction: row;
+			padding-top: 10px;
+		}
+
+		&-btn {
+			padding-left: $form-icon-spacing;
+		}
+
+		&-right {
+			justify-content: flex-end;
+		}
+	}
+}

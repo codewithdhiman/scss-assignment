@@ -1,0 +1,28 @@
+
+
+.login-wrapper {
+	.logo {
+		height: $header-height;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		&-in {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.site-title {
+			padding-top: 20px;
+			font-size: map-get($font-size, "medium");
+		}
+	}
+
+	.btn {
+		@include btn;
+
+		&-login {
+			font-size: map-get($font-size, "bigger");
+		}
+	}
+}

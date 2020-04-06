@@ -1,0 +1,38 @@
+/* fonts */
+$font-family: Arial, Helvatica, sans-serif;
+$font-size: (
+	"regular": 14px,
+	"medium": 18px,
+	"bigger": 25px
+);
+$font-weight: (
+	"regular": 400,
+	"medium": 700
+);
+
+/* colors */
+
+$primary-color: #404040;
+$secondary-color: #063770;
+$tertiary-color: #66288b;
+
+$white: #fff;
+
+$colors: (
+	"regular": $primary-color,
+	"label": $secondary-color
+);
+
+$bg: (
+	"header": $tertiary-color,
+	"btn": $primary-color
+);
+
+
+/* measures */
+$header-height: 200px;
+$btn-height: 25px;
+$input-height: 30px;
+
+$form-elem-spacing: 20px;
+$form-icon-spacing: 40px;

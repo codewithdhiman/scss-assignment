@@ -1,0 +1,11 @@
+@mixin btn {
+	background-color: map-get($bg, "btn");
+	color: $white;
+	font-size: map-get($font-size, "regular");
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	border-radius: 6px;
+	border: none;
+	padding: 5px;
+}
